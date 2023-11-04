@@ -1,0 +1,172 @@
+body{
+    margin: 0%;
+    text-align: center;
+    padding: 0%;
+}
+.container-top {
+    background-color: #DAFFFB;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #176B87;
+    font-family: 'Caveat', cursive;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #176B87;
+    font-family: 'Chakra Petch', sans-serif;
+} 
+p{
+    font-size: 1.5rem;
+    color: #04364A;
+}
+h3{
+    font-size: 1.5rem;
+    color: #176B87;  
+}
+
+.cloud-top {
+    height: 100px;
+    position: absolute;
+    top: 10px;
+}
+.mounten {
+    height: 200px;
+}
+
+.my-image {
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+    right: 13px;
+}
+.gird-flex{
+    background-color: #DAFFFB;
+}
+
+.third-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: repeat(1, 1fr);
+    margin: 100px auto 0 auto;
+    width: 50%;
+    text-align: left;
+    row-gap: 2rem;
+}
+.coding {
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    bottom: 20px;
+}
+.coffee {
+    grid-area: 2 / 1 / 3 / 2;
+    position: relative;
+    bottom: 50px;
+}
+.programmering {
+    grid-area: 1 / 2 / 2 / 3;
+    position: relative;
+    top: 90px;
+}
+.making-coffee {
+    grid-area: 2 / 2 / 3 / 3;
+    position: relative;
+    top: 30px;
+}
+
+.button-color {
+    background: #64CCC5;
+    color: #04364A;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: #64CCC5;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 180px;
+}
+a {
+  color: #DAFFFB;  
+}
+.social-images {
+    border-radius: 30%;
+}
+.p-flex {
+    align-self: flex-end;
+    position: relative;
+    right: 150px;
+}
+.instagram {
+    position: relative;
+    left: 230px;
+}
+
+@media (max-width: 1205px){
+    .cloud-top{ 
+        height: 70px;
+    }
+    .mounten{
+        height: 100px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    } 
+    .my-image {
+        height: 100px;
+        right: 5px;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .third-container {
+        position: relative;
+        left: 50px;
+        bottom: 50px;
+    }
+    .coding-image {
+        height: 80px !important;
+        position: relative;
+        top: 60px;
+
+    }
+    .coffee-image {
+        height: 80px !important;
+        width: 80px;
+        position: relative;
+        top: 60px;
+    }
+    .gird-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-images{
+        height: 15px;
+    }
+    a {
+        font-size: 0.5rem;
+    }
+    .footer-container{
+        position: relative;
+        right: 150px;
+    }
+    .p-flex{
+        position: absolute;
+        left: 400px;
+    }
+}
